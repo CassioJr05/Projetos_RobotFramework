@@ -1,5 +1,6 @@
 *** Settings ***
 Library                    SeleniumLibrary
+Library                    RPA.Email.ImapSmtp
 
 Resource                   ./Resources/Variables.robot
 Resource                   ./Resources/Actions.robot
@@ -14,3 +15,4 @@ Inicio do Processo
 
 Gerar nova chave no sistema
     Navegate and get new Key
+    Generate a new key
